@@ -1,0 +1,72 @@
+/* Header Styles */
+.nav {
+    font-family: calibri;
+    display: flex;
+    padding: 15px 30px;
+    overflow: hidden;
+    background-color: #65ADF5;
+    justify-content: space-between;
+    height: 70px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    opacity: 0.8;
+    letter-spacing: 1px;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav ul a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav li {
+    float: left;
+    margin: 0 2px;
+}
+
+.icon {
+    padding: 15px;
+    font-size: 38px;
+    font-weight: 800;
+    cursor: pointer;
+    color: white;
+    margin-right: -100px;
+    margin-left: -20px;
+}
+
+li a:hover, .active {
+    background-color: #08396A;
+    border-radius: 20px;
+}
+
+.auth-buttons {
+    margin-top: 10px;
+}
+
+.auth-buttons button {
+    background-color: #3232b8a3;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 7px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.325);
+}
+
+.auth-buttons button:hover {
+    background-color: #2424b8a3;
+}
+

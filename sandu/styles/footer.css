@@ -1,0 +1,32 @@
+footer {
+    background-color:#65ADF5;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.social-icons {
+    margin-bottom: 10px;
+}
+
+.social-icons .icon {
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-icons .icon:hover {
+    color: #55acee; /* Change color on hover */
+}

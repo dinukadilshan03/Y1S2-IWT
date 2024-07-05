@@ -1,0 +1,65 @@
+/* styles/style.css */
+
+/* Your CSS rules here */
+
+body {
+    background-image: url("../images/Background1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+
+.border {
+    border: 3px solid black;
+}
+.newslayout {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.bttn1 {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #84baf3;
+    color: rgb(0,0,0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.text1 {
+    text-align: center;
+}
+/* styles/style.css */
+
+/* Table styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 3px solid black;
+}
+
+th {
+    background-color: blueviolet;
+}
+
+/* Alternate row color */
+tr {
+    background-color:  #84baf3;
+}
+
+/* Hover effect */
+tr {
+    background-color: #84baf3;
+}
+
+/* Highlight the first column (Name) */
+td {
+    font-weight: bold;
+}

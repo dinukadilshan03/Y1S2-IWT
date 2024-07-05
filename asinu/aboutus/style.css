@@ -1,0 +1,51 @@
+body{
+    background-image:url(../aboutus/back02.jpg);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    background-image:url(../aboutus/header.webp);
+    color: #1a0202;
+    text-align: center;
+    padding: 05px 0;
+}
+
+.container {
+    width: 90%;
+    margin: left;
+    padding: 20px ;
+   
+}
+
+.section {
+    text-align: left;
+    margin-top: 10px;
+ 
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #03050c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.image {
+    float: right;
+    display: inline-block;
+    
+
+}
+
+button:hover {
+    background-color: #555;
+}
+

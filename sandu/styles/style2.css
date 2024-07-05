@@ -1,0 +1,96 @@
+/* General Styles */
+body {
+    background-image: url("../images/Background1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: #84baf3 ;
+}
+
+legend {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="submit"],
+input[type="reset"] {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #84baf3;
+}
+
+/* Form-specific Styles */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Align labels and inputs */
+form label {
+    display: block;
+    width: 100%;
+    text-align: right;
+    margin-bottom: 5px;
+}
+
+form input[type="text"] {
+    width: 100%;
+}
+
+.table-container {
+    background: rgba(127, 158, 243, 0.9);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(127, 158, 243, 0.9);
+    padding: 20px;
+    width: 90%; /* Set width to 90% of the viewport width */
+    max-width: 900px; /* Set maximum width to 900px */
+    margin: 20px auto;  /* Center the form horizontally and provide top and bottom margin */
+  }
+  /* Additional styles for the table */
+  .table-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .table-container th, .table-container td {
+    padding: 8px;
+    border: 1px solid #033973;
+    text-align: left;
+  }
+  .table-container th {
+    background-color: #7298ea;
+  }
+  
+  .table-container tr:hover {
+    background-color: #033973;
+  }
+
+
+
